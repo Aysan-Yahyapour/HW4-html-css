@@ -1,0 +1,213 @@
+body{
+    background-color: #f4f5fa;
+}
+.menue{
+    /* left: 15px; */
+    /* right: 16px; */
+    background-color: #365898;
+    color: #fdfffe;
+    margin: 0;
+    /* padding: 20 20; */
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    height: 80px;
+    /* bottom: 8px; */
+    justify-content: space-between;
+    flex-direction: row;
+    /* width: 1900px; */
+}
+.menue .facebook{
+    
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* top: 20px; */
+    font-size: 2.5rem;
+    /* left: 50px; */
+}
+.menue .email{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.menue .password{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.menue .password .p{
+    
+    bottom: 10%;
+    color: #a8adb5;
+}
+
+.menue .login{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+
+    box-sizing: content-box;
+    border: 1% solid blue;
+    background-color:  #217cb2;
+    border-radius: 2%;
+    height: 20%;
+    width: 5%;
+    text-align: center;
+
+
+    
+
+}
+
+.text{
+    
+    margin: 50%;
+    font-size: 1rem;
+    color: #3c4c67;
+    background-color: #f4f5fa;
+    left: 25%;
+
+}
+
+
+.form{
+    
+    left:570%;
+    padding: 10% 10%;
+    background-color: #f4f5fa;
+    margin: 0;
+    bottom: 190%;
+}
+
+.form .birthday{
+    padding: 0%;
+    
+    bottom: 30%;
+}
+label{
+  padding: 0%;
+  width: 80%;
+  height: 60%;
+}
+.form .radio{
+    
+    bottom: 20%;
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+ }
+
+ .form .birthday .sub{
+    
+    color: #d1d1eb;
+    bottom: 60%;
+
+ }
+
+
+.form .button{
+    
+    box-sizing: border-box;
+    background-color:  #629351;
+    color: #fdfffe;
+    border-radius: 5%;
+    height: 35%;
+    width: 150%;
+    text-align: center;
+    padding: 5%;
+    
+    bottom: 80%;
+    font-size: 1.4rem;
+}
+.form .form1{
+    
+    
+    bottom: 50%;
+}
+
+.form .form1 .labels{
+    margin: 0px;
+    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    right: 76px;
+    top: 30px;
+}
+
+.form .form1 input{
+    color: #a9a0a0;
+}
+.form .des{
+    
+    bottom: 90px;
+}
+
+
+.form .p2{
+    
+    bottom: 20px;
+}
+
+
+.form .form1 .labels .c2{
+    
+    left: 100px;
+ 
+}
+
+.form .form1 .labels .c1{
+    
+    left: 75px;
+    right: 100px;
+ 
+}
+
+.form .form1 .c3{
+    
+    top: 10px;
+}
+
+.form .form1 .c4{
+    
+    top: 10px;
+}
+
+.form .sub{
+    color: #6053ef;
+    
+    bottom: 150px;
+}
+
+.form1 .labels .c1 input{
+    /* width: 5px; */
+    height: 23px;
+    /* padding: ; */
+}
+
+
+.form1 .labels .c2 input{
+    height: 23px;
+}
+
+.form1 .c3 input{
+    height: 23px;
+}
+
+.form1 .c4 input{
+    height: 23px;
+}
+
+
+.form1 .birthday day{
+    height: 23px;
+}
