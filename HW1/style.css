@@ -1,0 +1,140 @@
+/* :root{
+    font-size: 62.5%;
+} */
+/* ? */
+.card{
+    background-color: #ebe0e0;
+    padding: 200px;
+    margin: 30px 40px;
+    display: flex;
+    position: relative;
+
+
+}
+
+.card .content{
+    position: relative;
+    padding: 150px 100px;
+    height: 150px;
+    width:90px ;
+    background-color: white;
+    margin-left: 700px;
+    margin-top: 0px;
+    top: 50px;
+    display: inline-block;
+    right: 300px;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+
+}
+
+.card .content .text{
+    font-family: 'Fraunces', serif;
+    position:absolute;
+    left:0px;
+    right:0px;
+    top: 0px;
+    margin-block-start: 0px;
+    margin: 0px;
+    text-align: left;
+    padding: 20px;
+}
+.card .content .text .perfume{
+    color: gray;
+    letter-spacing: 5px;
+}
+.card .content .text .description{
+    top: 0px;
+    padding: 0px;
+    position: relative;
+    color: gray;
+}
+.card .content .text .title{
+    color: black;
+    font-size: 2rem;
+}
+.card .content .text .price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+    list-style-position: outside;
+    padding: 0%;
+}
+.card .content .text .price .second-price{
+    color: gray;
+    text-decoration-line: line-through;
+    padding: 10px;
+    
+
+}
+
+.card .content .text .price .first-price{
+    color: #3f8068;
+    font-size: 2rem;
+
+}
+
+.card img{
+    position: relative;
+    height: 450px;
+    width: 300px;
+    top: 50px;
+    left: 400px;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+.card .content .icon{
+    position: relative;
+    padding: 15px;
+    background-color:#3f8068;
+    box-sizing: border-box;
+    width: 230px;
+    margin-top: 230px;
+    margin-right: 1000px;
+    text-align: center;
+    color: rgb(227, 220, 220);
+    position: relative;
+    right: 70px;
+    border-radius: 10px;
+    direction: rtl;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?bce8we');
+    src:  url('fonts/icomoon.eot?bce8we#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?bce8we') format('truetype'),
+      url('fonts/icomoon.woff?bce8we') format('woff'),
+      url('fonts/icomoon.svg?bce8we#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+.card .content .icon .icon-cart:before{
+    content: "\e93a";
+    font-size: 2rem;
+
+ 
+  }
+  
